@@ -1,0 +1,9 @@
+---
+# vars file for up
+up_os: '{{ ansible_system | lower }}'
+up_arch: '{{ up_arch_map[ansible_architecture] }}'
+up_platform: '{{ up_os }}_{{ up_arch }}'
+up_url: '{{ up_mirror }}/{{ up_channel }}/{{ up_ver }}/bin/{{ up_platform }}/up{{ up_dotexe | default("") }}'
+up_exe: '{{ up_install_dir }}/up_{{ up_channel }}_{{ up_ver }}_{{ up_platform }}{{ up_dotexe | default("") }}'
+up_link: '{{ up_install_dir }}/up{{ up_dotexe | default("") }}'
+up_checksum: '{{ up_checksums[up_ver][up_platform] }}'
