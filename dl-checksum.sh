@@ -3,6 +3,8 @@ set -e
 DIR=~/Downloads
 MIRROR=https://cli.upbound.io
 
+# https://github.com/upbound/up/releases
+
 dl()
 {
     local channel=$1
