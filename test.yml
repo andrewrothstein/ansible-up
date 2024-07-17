@@ -5,10 +5,10 @@
     - name: Installing andrewrothstein.up
       ansible.builtin.include_role:
         name: '{{ playbook_dir }}'
-    - name: Executing 'up --version'
-      ansible.builtin.command: /usr/local/bin/up --version
+    - name: Executing 'up version'
+      ansible.builtin.command: up version
       changed_when: false
       register: up_test_output
-    - name: Output of 'up --version'
+    - name: Output of 'up version'
       ansible.builtin.debug:
         msg: '{{ up_test_output.stdout }}'
