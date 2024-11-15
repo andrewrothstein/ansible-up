@@ -1,7 +1,7 @@
 ---
 # defaults file for up
 up_mirror: https://cli.upbound.io
-up_ver: v0.35.0
+up_ver: v0.35.3
 up_channel: stable
 up_install_dir: /usr/local/bin
 up_arch_map:
@@ -196,3 +196,14 @@ up_checksums:
     darwin_amd64: sha256:0e50d0b6587a75a0ee24f8029344e20168a7f9d0c6dda10f3122099c95068810
     # https://cli.upbound.io/stable/v0.35.0/bin/windows_amd64/up.exe
     windows_amd64: sha256:815649a28042892384774609f78cd81bb4cedd5d40ba794ec1be8dddccc7f3f3
+  v0.35.3:
+    # https://cli.upbound.io/stable/v0.35.3/bin/linux_amd64/up
+    linux_amd64: sha256:af5f1745d661ad2f4c32da1820c0ee0999753fc7a2f13739688d362915778e2e
+    # https://cli.upbound.io/stable/v0.35.3/bin/linux_arm64/up
+    linux_arm64: sha256:b23c9c915e8a6918b5eea962d9f2b5743c306fd753220792e1121e2ca8c4eff2
+    # https://cli.upbound.io/stable/v0.35.3/bin/darwin_arm64/up
+    darwin_arm64: sha256:22c294e9da1a6aa9f125c9791d5721fd56e1c504d2cf5b029d74c93ac754823b
+    # https://cli.upbound.io/stable/v0.35.3/bin/darwin_amd64/up
+    darwin_amd64: sha256:cd187b3be1d53245f4fc5415eed0baa0f20138510f81ca6fed4f782ab971f6a0
+    # https://cli.upbound.io/stable/v0.35.3/bin/windows_amd64/up.exe
+    windows_amd64: sha256:fdbb283f90b4717f00bebad9f4028899f6bde8a3aadbcfc71327727eb21c7cfe
