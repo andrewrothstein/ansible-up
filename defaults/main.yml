@@ -1,7 +1,7 @@
 ---
 # defaults file for up
 up_mirror: https://cli.upbound.io
-up_ver: v0.36.0
+up_ver: v0.36.2
 up_channel: stable
 up_install_dir: /usr/local/bin
 up_arch_map:
@@ -218,3 +218,25 @@ up_checksums:
     darwin_amd64: sha256:fc1cba4902545d4b919deb8a6f34a2767bc7c299c90568ef76539524930efe92
     # https://cli.upbound.io/stable/v0.36.0/bin/windows_amd64/up.exe
     windows_amd64: sha256:77f7f96dfd7163517a2694a5f331bd0c930344926eb767e964457874f11de499
+  v0.36.1:
+    # https://cli.upbound.io/stable/v0.36.1/bin/linux_amd64/up
+    linux_amd64: sha256:9d27c0ab876edce9444926d6d1989f910913ca540c2dbbbd89fca42319af09a6
+    # https://cli.upbound.io/stable/v0.36.1/bin/linux_arm64/up
+    linux_arm64: sha256:c9787de04237aec806bc0a5422e99ddb0616cc57fa25dc8fbbc42f2e2312a1fd
+    # https://cli.upbound.io/stable/v0.36.1/bin/darwin_arm64/up
+    darwin_arm64: sha256:a74c28e752f5c7969f1f0314817688fbccae7a14452e0422bad4c06810c474c9
+    # https://cli.upbound.io/stable/v0.36.1/bin/darwin_amd64/up
+    darwin_amd64: sha256:2a90953a2beb52cf1ad2103508a7c231e01224c94cbf5e4f71db6e21e8eaf05c
+    # https://cli.upbound.io/stable/v0.36.1/bin/windows_amd64/up.exe
+    windows_amd64: sha256:c49304c75bcf6d512434a82b1026d33f9580467a2ca279d761d5fe806d802c0f
+  v0.36.2:
+    # https://cli.upbound.io/stable/v0.36.2/bin/linux_amd64/up
+    linux_amd64: sha256:0b25e6cef8627b70d073b4da21ce5004c3db3f5e32783eac08565d89c0304521
+    # https://cli.upbound.io/stable/v0.36.2/bin/linux_arm64/up
+    linux_arm64: sha256:9752d9da562b77a01ad3f7d12fd1826ca161dea09e8d2c386b66a899edf527e8
+    # https://cli.upbound.io/stable/v0.36.2/bin/darwin_arm64/up
+    darwin_arm64: sha256:6fe40bfc42aee58939440343fe1b7c30b298d8f4c8b3453a3a49fe5c9b9ba140
+    # https://cli.upbound.io/stable/v0.36.2/bin/darwin_amd64/up
+    darwin_amd64: sha256:4bc2c970eedefb73f4cc6ded9c7116569eb45f719502b77298aa09fd1145fd58
+    # https://cli.upbound.io/stable/v0.36.2/bin/windows_amd64/up.exe
+    windows_amd64: sha256:48e49e70d5d2193610d485c1082169e4d8a8836911be44c6b9aa6a1c985c5a12
