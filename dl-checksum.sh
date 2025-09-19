@@ -37,4 +37,4 @@ dlver () {
     dl $channel $ver windows amd64 .exe
 }
 
-dlver stable ${1:-v0.38.4}
+dlver stable ${1:-v0.41.0}

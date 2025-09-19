@@ -1,7 +1,7 @@
 ---
 # defaults file for up
 up_mirror: https://cli.upbound.io
-up_ver: v0.38.4
+up_ver: v0.41.0
 up_channel: stable
 up_install_dir: /usr/local/bin
 up_arch_map:
@@ -328,3 +328,80 @@ up_checksums:
     darwin_amd64: sha256:c10cd7200d44dda298f820f5519f326c521995ca9892751e6b1b8283886c5a0c
     # https://cli.upbound.io/stable/v0.38.4/bin/windows_amd64/up.exe
     windows_amd64: sha256:598d624485660d8a283c6e191ef638e0c833dee24551a1641471a39bd6469faa
+  v0.39.0:
+    # https://cli.upbound.io/stable/v0.39.0/bin/linux_amd64/up
+    linux_amd64: sha256:6796403239b379cf1d3f874046eb32ce5e42313ecec5aa4c4f1aaab5d0fe98eb
+    # https://cli.upbound.io/stable/v0.39.0/bin/linux_arm64/up
+    linux_arm64: sha256:f21c50ff180d470def7c645eb30c435a6243483dc0c74d2a2e29ad46fcfc5d52
+    # https://cli.upbound.io/stable/v0.39.0/bin/darwin_arm64/up
+    darwin_arm64: sha256:eda6a4249c3531f6adb9101cb0c4330e70264740f1eeee0ee4ac4b7dbb6a3415
+    # https://cli.upbound.io/stable/v0.39.0/bin/darwin_amd64/up
+    darwin_amd64: sha256:0cd2db007fcece86d94fa19f3f5797f37a659e31c27e5f8db23767c4504e0e4d
+    # https://cli.upbound.io/stable/v0.39.0/bin/windows_amd64/up.exe
+    windows_amd64: sha256:abc0886bf793422527fef327387fe57f3527e726633b0a146bb6f4b44d4eaadd
+  v0.39.1:
+    # https://cli.upbound.io/stable/v0.39.1/bin/linux_amd64/up
+    linux_amd64: sha256:5ae46ccaff1ed60197c4efdf4363046290138a6d01a921a060e468f46f076a55
+    # https://cli.upbound.io/stable/v0.39.1/bin/linux_arm64/up
+    linux_arm64: sha256:8eadd9a2b02a47b1f782832b9a75c091667b8bc85477dc2a64171b6940b5b549
+    # https://cli.upbound.io/stable/v0.39.1/bin/darwin_arm64/up
+    darwin_arm64: sha256:0b49ee9ca9ee268eb14669348be6c073bfb798e16720068ec858db942c3ef640
+    # https://cli.upbound.io/stable/v0.39.1/bin/darwin_amd64/up
+    darwin_amd64: sha256:6096e7542efb3ae0539ba837c23b18675b9166f8a8fad644e1fb7222aa3c8d6f
+    # https://cli.upbound.io/stable/v0.39.1/bin/windows_amd64/up.exe
+    windows_amd64: sha256:aa40ed8a2e24fd95f8b9faa7f6f795449323472c9fb4e9f98a6697db95f41eda
+  v0.40.0:
+    # https://cli.upbound.io/stable/v0.40.0/bin/linux_amd64/up
+    linux_amd64: sha256:f2612ffca79c375755f59d996dfc9b43e0ff6f3d36a6bd551971c78ec2025b64
+    # https://cli.upbound.io/stable/v0.40.0/bin/linux_arm64/up
+    linux_arm64: sha256:4867d5b68969ecf60965216f3c5d3f08786e589336f652c6bddcfe49aa38ea28
+    # https://cli.upbound.io/stable/v0.40.0/bin/darwin_arm64/up
+    darwin_arm64: sha256:5d678f532f0d012a90e9e16b9f5cee222a0e11ed900d6c67ebd857b9d4251909
+    # https://cli.upbound.io/stable/v0.40.0/bin/darwin_amd64/up
+    darwin_amd64: sha256:9527a850f11c23d5a74b9ae83747aa88ad73090c9117a9bc8febc15e6c858672
+    # https://cli.upbound.io/stable/v0.40.0/bin/windows_amd64/up.exe
+    windows_amd64: sha256:ec8364fed1c6b78ef3eb2066a3e53d34c9c4918c331d34d5e8b2519f792189ce
+  v0.40.1:
+    # https://cli.upbound.io/stable/v0.40.1/bin/linux_amd64/up
+    linux_amd64: sha256:6d793a9c38dad007858e2bbafd84a84e18cff0b802c0f68991bf4a0fe24c79b8
+    # https://cli.upbound.io/stable/v0.40.1/bin/linux_arm64/up
+    linux_arm64: sha256:b52a643e1c4db6197af641bd339b047add958577c7b58e73ced5bded3cc88880
+    # https://cli.upbound.io/stable/v0.40.1/bin/darwin_arm64/up
+    darwin_arm64: sha256:8ac46a019be40d823158f100c20380361a1c51737d63591451d0a9b29733b5af
+    # https://cli.upbound.io/stable/v0.40.1/bin/darwin_amd64/up
+    darwin_amd64: sha256:e94cb1a96763ccd1d6a944fae64a8cec7f7ba080cb23d154fee2247594e91a15
+    # https://cli.upbound.io/stable/v0.40.1/bin/windows_amd64/up.exe
+    windows_amd64: sha256:51ea1338141f8bd4ea92ef41d62e0523ad5aeab29138cde10facc935b87e1718
+  v0.40.2:
+    # https://cli.upbound.io/stable/v0.40.2/bin/linux_amd64/up
+    linux_amd64: sha256:2cf346fb3bae7050745414f5eb9c91a32fd5abc8a6adefd9001b214c7643cba8
+    # https://cli.upbound.io/stable/v0.40.2/bin/linux_arm64/up
+    linux_arm64: sha256:232117529babd20dcdda3e19d7752757215c67063cfe7ff28c655875e62f6383
+    # https://cli.upbound.io/stable/v0.40.2/bin/darwin_arm64/up
+    darwin_arm64: sha256:91127f884ad89866a6e6caa1dcdcdb97ae21f459053fb1c9e295d86aa75cf647
+    # https://cli.upbound.io/stable/v0.40.2/bin/darwin_amd64/up
+    darwin_amd64: sha256:b0121cdcf0bb82ca1f11c97938d7146188527e410d218e995ff42716e39e46d8
+    # https://cli.upbound.io/stable/v0.40.2/bin/windows_amd64/up.exe
+    windows_amd64: sha256:1a3db910fc44b183936c9bb332a9b367a2186138d2ae0de2ce6559ba30c58b2e
+  v0.40.3:
+    # https://cli.upbound.io/stable/v0.40.3/bin/linux_amd64/up
+    linux_amd64: sha256:63e25ba61372dcc89b700b23202fe6e66dcf9e8d71fe9229f0b49390a5e4c495
+    # https://cli.upbound.io/stable/v0.40.3/bin/linux_arm64/up
+    linux_arm64: sha256:50d08dfd1e8ab5cc24170ad498475160a3a60161ef8dde6d366260c192f4ff9f
+    # https://cli.upbound.io/stable/v0.40.3/bin/darwin_arm64/up
+    darwin_arm64: sha256:e123198832432293b5652299196982b666ea7a6d183ab23300d2eee6c26d5029
+    # https://cli.upbound.io/stable/v0.40.3/bin/darwin_amd64/up
+    darwin_amd64: sha256:367d9d3fc59d2888e8659c2b575f310aa83c56532697bc68eced1a8a9a8ee294
+    # https://cli.upbound.io/stable/v0.40.3/bin/windows_amd64/up.exe
+    windows_amd64: sha256:3e5d71efd3fcba2cbfe7e9dda8ac31193d6c1ed3ddb51ecdec4609c8c9eb3f4f
+  v0.41.0:
+    # https://cli.upbound.io/stable/v0.41.0/bin/linux_amd64/up
+    linux_amd64: sha256:8cf19440cab26bcb1d581fa21d6e200ad3d06c79c97a74847edc842e2d9eba89
+    # https://cli.upbound.io/stable/v0.41.0/bin/linux_arm64/up
+    linux_arm64: sha256:b8a78d5aa3a7faa1b2d1316c518788ee2a61d3626804842ca67f83bb096208a9
+    # https://cli.upbound.io/stable/v0.41.0/bin/darwin_arm64/up
+    darwin_arm64: sha256:7009fa5d580e8a3821b5cf8608170d2d2739a52b743d0ee62f45fc4f69b8fa3c
+    # https://cli.upbound.io/stable/v0.41.0/bin/darwin_amd64/up
+    darwin_amd64: sha256:e9d31618af7669c23151b89c1ddd9056f27cc8a5ed805cad85ed052fc2b45894
+    # https://cli.upbound.io/stable/v0.41.0/bin/windows_amd64/up.exe
+    windows_amd64: sha256:59f31017985d7ed9459c7f7c47af9b8aa2a7413101e1906f6b52f4d31824a263
