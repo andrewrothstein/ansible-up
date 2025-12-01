@@ -1,7 +1,7 @@
 ---
 # defaults file for up
 up_mirror: https://cli.upbound.io
-up_ver: v0.41.0
+up_ver: v0.43.0
 up_channel: stable
 up_install_dir: /usr/local/bin
 up_arch_map:
@@ -405,3 +405,25 @@ up_checksums:
     darwin_amd64: sha256:e9d31618af7669c23151b89c1ddd9056f27cc8a5ed805cad85ed052fc2b45894
     # https://cli.upbound.io/stable/v0.41.0/bin/windows_amd64/up.exe
     windows_amd64: sha256:59f31017985d7ed9459c7f7c47af9b8aa2a7413101e1906f6b52f4d31824a263
+  v0.42.0:
+    # https://cli.upbound.io/stable/v0.42.0/bin/linux_amd64/up
+    linux_amd64: sha256:39211e8dc96f2e9814939abac86ce7b2cda7db135512938e68a90eaf8b3f7f34
+    # https://cli.upbound.io/stable/v0.42.0/bin/linux_arm64/up
+    linux_arm64: sha256:cf4d81d2681eaee60ad3052bc89f797023664d823fd0c115909a6900b3a0dc4c
+    # https://cli.upbound.io/stable/v0.42.0/bin/darwin_arm64/up
+    darwin_arm64: sha256:d34420cb633de9c31c127cff95342d50d3c192dc2cdc2e549f40dd6da1e9bee0
+    # https://cli.upbound.io/stable/v0.42.0/bin/darwin_amd64/up
+    darwin_amd64: sha256:e6158207ede11ab7e3c3b8613e6b36172528b4e54ee262918d9db51d2922812d
+    # https://cli.upbound.io/stable/v0.42.0/bin/windows_amd64/up.exe
+    windows_amd64: sha256:dd1a0b2c0f5cfda84cf35b6cc0b7a3fd506ffe937aacfa49c6c0b330ff57745d
+  v0.43.0:
+    # https://cli.upbound.io/stable/v0.43.0/bin/linux_amd64/up
+    linux_amd64: sha256:c5851d3398c0078f162e11ca25794b6376a29adbb6d3c658a7bf75d04ba21777
+    # https://cli.upbound.io/stable/v0.43.0/bin/linux_arm64/up
+    linux_arm64: sha256:9cf560f1cb7c6ab67fdedb226240bb5b9a872f1bb802c25f1e6a8043331c52f9
+    # https://cli.upbound.io/stable/v0.43.0/bin/darwin_arm64/up
+    darwin_arm64: sha256:966d6bcfa8687915b4d44bbf52c91c978b79b5cef01c44320f835320b4d393c5
+    # https://cli.upbound.io/stable/v0.43.0/bin/darwin_amd64/up
+    darwin_amd64: sha256:4c9d78d0a9a6f7db9b4d105e0f085b14e9d26844b81f779d33e4dfe349aee16f
+    # https://cli.upbound.io/stable/v0.43.0/bin/windows_amd64/up.exe
+    windows_amd64: sha256:c46d3a56875f251fe8caa57ca52116f05924ea733df0d8f79d98fce7ee5d21ee
